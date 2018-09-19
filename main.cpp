@@ -16,6 +16,10 @@ int main()
     cout << "What is your last name?";
     cout<<endl;
     cin >> lastname;
+    cout << "Welcome, ";
+    cout << firstname[0];
+    cout << lastname[0];
+    cout << " here is your fortune..."<<endl;
   //tell fortune
 
   return 0;
